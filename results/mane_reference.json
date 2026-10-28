@@ -1,0 +1,196 @@
+{
+ "pairs": {
+  "canonical": 16361,
+  "another isoform": 1764,
+  "no MANE": 1122,
+  "isoform": 916
+ },
+ "analysed": {
+  "canonical": 15060,
+  "another isoform": 1618,
+  "no MANE": 985,
+  "isoform": 845
+ },
+ "transitions_all": {
+  "addition": {
+   "pairs": 1299,
+   "canon_hc": 129,
+   "losses": 25,
+   "loss_rate": 19.3798,
+   "gains": 21,
+   "gain_rate": 1.7949
+  },
+  "replacement": {
+   "pairs": 9954,
+   "canon_hc": 827,
+   "losses": 449,
+   "loss_rate": 54.2926,
+   "gains": 204,
+   "gain_rate": 2.2351
+  },
+  "subtraction": {
+   "pairs": 7255,
+   "canon_hc": 706,
+   "losses": 317,
+   "loss_rate": 44.9008,
+   "gains": 119,
+   "gain_rate": 1.8171
+  }
+ },
+ "transitions_canonical_mane": {
+  "addition": {
+   "pairs": 951,
+   "canon_hc": 106,
+   "losses": 19,
+   "loss_rate": 17.9245,
+   "gains": 18,
+   "gain_rate": 2.1302
+  },
+  "replacement": {
+   "pairs": 7974,
+   "canon_hc": 743,
+   "losses": 415,
+   "loss_rate": 55.8546,
+   "gains": 178,
+   "gain_rate": 2.4616
+  },
+  "subtraction": {
+   "pairs": 6135,
+   "canon_hc": 640,
+   "losses": 302,
+   "loss_rate": 47.1875,
+   "gains": 102,
+   "gain_rate": 1.8562
+  }
+ },
+ "retention_all": {
+  "pairs": 1662,
+  "loss_all_kept": 18.1409,
+  "loss_lt50_kept": 94.2249,
+  "group_only": {
+   "n": 1662,
+   "terms": {
+    "C(grp)[T.subtraction]": {
+     "OR": 3.39,
+     "lo": 2.1378,
+     "hi": 5.3758
+    },
+    "C(grp)[T.replacement]": {
+     "OR": 4.9414,
+     "lo": 3.1272,
+     "hi": 7.808
+    }
+   }
+  },
+  "with_interface": {
+   "n": 1662,
+   "terms": {
+    "C(grp)[T.subtraction]": {
+     "OR": 1.2019,
+     "lo": 0.7442,
+     "hi": 1.9409
+    },
+    "C(grp)[T.replacement]": {
+     "OR": 1.1306,
+     "lo": 0.6963,
+     "hi": 1.8359
+    },
+    "iface_lost10": {
+     "OR": 1.9809,
+     "lo": 1.8345,
+     "hi": 2.139
+    }
+   }
+  },
+  "with_interface_and_fold": {
+   "n": 1662,
+   "terms": {
+    "C(grp)[T.subtraction]": {
+     "OR": 1.0934,
+     "lo": 0.6739,
+     "hi": 1.7738
+    },
+    "C(grp)[T.replacement]": {
+     "OR": 0.9929,
+     "lo": 0.6061,
+     "hi": 1.6266
+    },
+    "iface_lost10": {
+     "OR": 1.8112,
+     "lo": 1.6493,
+     "hi": 1.989
+    },
+    "conf_removed10": {
+     "OR": 1.1552,
+     "lo": 1.0523,
+     "hi": 1.2682
+    }
+   }
+  }
+ },
+ "retention_canonical_mane": {
+  "pairs": 1489,
+  "loss_all_kept": 17.9024,
+  "loss_lt50_kept": 94.3038,
+  "group_only": {
+   "n": 1489,
+   "terms": {
+    "C(grp)[T.subtraction]": {
+     "OR": 4.0912,
+     "lo": 2.4323,
+     "hi": 6.8817
+    },
+    "C(grp)[T.replacement]": {
+     "OR": 5.7935,
+     "lo": 3.4546,
+     "hi": 9.7158
+    }
+   }
+  },
+  "with_interface": {
+   "n": 1489,
+   "terms": {
+    "C(grp)[T.subtraction]": {
+     "OR": 1.3765,
+     "lo": 0.8033,
+     "hi": 2.3586
+    },
+    "C(grp)[T.replacement]": {
+     "OR": 1.2372,
+     "lo": 0.717,
+     "hi": 2.1346
+    },
+    "iface_lost10": {
+     "OR": 1.9818,
+     "lo": 1.8295,
+     "hi": 2.1468
+    }
+   }
+  },
+  "with_interface_and_fold": {
+   "n": 1489,
+   "terms": {
+    "C(grp)[T.subtraction]": {
+     "OR": 1.2708,
+     "lo": 0.738,
+     "hi": 2.1881
+    },
+    "C(grp)[T.replacement]": {
+     "OR": 1.11,
+     "lo": 0.6375,
+     "hi": 1.9328
+    },
+    "iface_lost10": {
+     "OR": 1.8483,
+     "lo": 1.6765,
+     "hi": 2.0377
+    },
+    "conf_removed10": {
+     "OR": 1.1211,
+     "lo": 1.0169,
+     "hi": 1.2361
+    }
+   }
+  }
+ }
+}

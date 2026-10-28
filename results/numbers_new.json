@@ -1,0 +1,1319 @@
+{
+ "swaps": {
+  "swaps": 11336,
+  "replacements_with_swap": 10401,
+  "replacements": 10858,
+  "homologous_swaps": 99,
+  "replacements_homologous": 81,
+  "z_threshold": 5,
+  "min_aligned": 20,
+  "min_identity": 0.25,
+  "loss_homologous": {
+   "n": 10,
+   "losses": 1,
+   "rate": 10.0,
+   "ci": [
+    1.7876,
+    40.415
+   ]
+  },
+  "loss_other": {
+   "n": 817,
+   "losses": 448,
+   "rate": 54.8348,
+   "ci": [
+    51.4076,
+    58.2167
+   ]
+  }
+ },
+ "interface_removal": {
+  "pairs": 1533,
+  "canonicals": 877,
+  "residues": 741321,
+  "by_band": {
+   "<50|other": {
+    "removed": 37944,
+    "n": 112012,
+    "pct": 33.8749
+   },
+   "<50|iface": {
+    "removed": 1121,
+    "n": 3678,
+    "pct": 30.4785
+   },
+   "50-70|other": {
+    "removed": 8073,
+    "n": 29408,
+    "pct": 27.4517
+   },
+   "50-70|iface": {
+    "removed": 1163,
+    "n": 4218,
+    "pct": 27.5723
+   },
+   "70-90|other": {
+    "removed": 27806,
+    "n": 121284,
+    "pct": 22.9264
+   },
+   "70-90|iface": {
+    "removed": 6131,
+    "n": 24648,
+    "pct": 24.8742
+   },
+   ">=90|other": {
+    "removed": 85161,
+    "n": 376929,
+    "pct": 22.5934
+   },
+   ">=90|iface": {
+    "removed": 16150,
+    "n": 69144,
+    "pct": 23.3571
+   }
+  },
+  "mh_or": 1.0479,
+  "mh_or_ci": [
+   0.9557,
+   1.1399
+  ]
+ },
+ "robustness": {
+  "deposition": {
+   "addition": {
+    "canon_hc": 129,
+    "losses": 25,
+    "loss_rate": 19.3798,
+    "canon_not": 1170,
+    "gains": 21,
+    "gain_rate": 1.7949
+   },
+   "subtraction": {
+    "canon_hc": 706,
+    "losses": 317,
+    "loss_rate": 44.9008,
+    "canon_not": 6549,
+    "gains": 119,
+    "gain_rate": 1.8171
+   },
+   "replacement": {
+    "canon_hc": 827,
+    "losses": 449,
+    "loss_rate": 54.2926,
+    "canon_not": 9127,
+    "gains": 204,
+    "gain_rate": 2.2351
+   },
+   "all": {
+    "canon_hc": 1662,
+    "losses": 791,
+    "loss_rate": 47.5933,
+    "canon_not": 16846,
+    "gains": 344,
+    "gain_rate": 2.042
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 667,
+     "losses": 121,
+     "rate": 18.1409
+    },
+    "90to100": {
+     "n": 252,
+     "losses": 82,
+     "rate": 32.5397
+    },
+    "50to90": {
+     "n": 414,
+     "losses": 278,
+     "rate": 67.1498
+    },
+    "lt50": {
+     "n": 329,
+     "losses": 310,
+     "rate": 94.2249
+    }
+   }
+  },
+  "ipsae_only": {
+   "addition": {
+    "canon_hc": 199,
+    "losses": 16,
+    "loss_rate": 8.0402,
+    "canon_not": 1100,
+    "gains": 10,
+    "gain_rate": 0.9091
+   },
+   "subtraction": {
+    "canon_hc": 1103,
+    "losses": 395,
+    "loss_rate": 35.8114,
+    "canon_not": 6152,
+    "gains": 107,
+    "gain_rate": 1.7393
+   },
+   "replacement": {
+    "canon_hc": 1412,
+    "losses": 604,
+    "loss_rate": 42.7762,
+    "canon_not": 8542,
+    "gains": 163,
+    "gain_rate": 1.9082
+   },
+   "all": {
+    "canon_hc": 2714,
+    "losses": 1015,
+    "loss_rate": 37.3987,
+    "canon_not": 15794,
+    "gains": 280,
+    "gain_rate": 1.7728
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 667,
+     "losses": 64,
+     "rate": 9.5952
+    },
+    "90to100": {
+     "n": 252,
+     "losses": 47,
+     "rate": 18.6508
+    },
+    "50to90": {
+     "n": 414,
+     "losses": 226,
+     "rate": 54.5894
+    },
+    "lt50": {
+     "n": 329,
+     "losses": 307,
+     "rate": 93.3131
+    }
+   }
+  },
+  "pdockq2_only": {
+   "addition": {
+    "canon_hc": 165,
+    "losses": 38,
+    "loss_rate": 23.0303,
+    "canon_not": 1134,
+    "gains": 22,
+    "gain_rate": 1.94
+   },
+   "subtraction": {
+    "canon_hc": 841,
+    "losses": 365,
+    "loss_rate": 43.4007,
+    "canon_not": 6414,
+    "gains": 222,
+    "gain_rate": 3.4612
+   },
+   "replacement": {
+    "canon_hc": 1089,
+    "losses": 548,
+    "loss_rate": 50.3214,
+    "canon_not": 8865,
+    "gains": 341,
+    "gain_rate": 3.8466
+   },
+   "all": {
+    "canon_hc": 2095,
+    "losses": 951,
+    "loss_rate": 45.3938,
+    "canon_not": 16413,
+    "gains": 585,
+    "gain_rate": 3.5642
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 667,
+     "losses": 99,
+     "rate": 14.8426
+    },
+    "90to100": {
+     "n": 252,
+     "losses": 72,
+     "rate": 28.5714
+    },
+    "50to90": {
+     "n": 414,
+     "losses": 249,
+     "rate": 60.1449
+    },
+    "lt50": {
+     "n": 329,
+     "losses": 298,
+     "rate": 90.5775
+    }
+   }
+  },
+  "iptm_ge08": {
+   "addition": {
+    "canon_hc": 70,
+    "losses": 20,
+    "loss_rate": 28.5714,
+    "canon_not": 1229,
+    "gains": 1,
+    "gain_rate": 0.0814
+   },
+   "subtraction": {
+    "canon_hc": 372,
+    "losses": 171,
+    "loss_rate": 45.9677,
+    "canon_not": 6883,
+    "gains": 47,
+    "gain_rate": 0.6828
+   },
+   "replacement": {
+    "canon_hc": 360,
+    "losses": 223,
+    "loss_rate": 61.9444,
+    "canon_not": 9594,
+    "gains": 47,
+    "gain_rate": 0.4899
+   },
+   "all": {
+    "canon_hc": 802,
+    "losses": 414,
+    "loss_rate": 51.6209,
+    "canon_not": 17706,
+    "gains": 95,
+    "gain_rate": 0.5365
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 261,
+     "losses": 52,
+     "rate": 19.9234
+    },
+    "90to100": {
+     "n": 126,
+     "losses": 39,
+     "rate": 30.9524
+    },
+    "50to90": {
+     "n": 208,
+     "losses": 137,
+     "rate": 65.8654
+    },
+    "lt50": {
+     "n": 159,
+     "losses": 153,
+     "rate": 96.2264
+    }
+   }
+  },
+  "iptm_ge06": {
+   "addition": {
+    "canon_hc": 165,
+    "losses": 23,
+    "loss_rate": 13.9394,
+    "canon_not": 1134,
+    "gains": 9,
+    "gain_rate": 0.7937
+   },
+   "subtraction": {
+    "canon_hc": 880,
+    "losses": 310,
+    "loss_rate": 35.2273,
+    "canon_not": 6375,
+    "gains": 178,
+    "gain_rate": 2.7922
+   },
+   "replacement": {
+    "canon_hc": 1043,
+    "losses": 495,
+    "loss_rate": 47.4593,
+    "canon_not": 8911,
+    "gains": 266,
+    "gain_rate": 2.9851
+   },
+   "all": {
+    "canon_hc": 2088,
+    "losses": 828,
+    "loss_rate": 39.6552,
+    "canon_not": 16420,
+    "gains": 453,
+    "gain_rate": 2.7588
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 502,
+     "losses": 37,
+     "rate": 7.3705
+    },
+    "90to100": {
+     "n": 203,
+     "losses": 26,
+     "rate": 12.8079
+    },
+    "50to90": {
+     "n": 364,
+     "losses": 154,
+     "rate": 42.3077
+    },
+    "lt50": {
+     "n": 267,
+     "losses": 230,
+     "rate": 86.1423
+    }
+   }
+  },
+  "grid_ipsae0.5_pdockq20.15": {
+   "addition": {
+    "canon_hc": 172,
+    "losses": 32,
+    "loss_rate": 18.6047,
+    "canon_not": 1127,
+    "gains": 19,
+    "gain_rate": 1.6859
+   },
+   "subtraction": {
+    "canon_hc": 893,
+    "losses": 378,
+    "loss_rate": 42.3292,
+    "canon_not": 6362,
+    "gains": 209,
+    "gain_rate": 3.2851
+   },
+   "replacement": {
+    "canon_hc": 1118,
+    "losses": 561,
+    "loss_rate": 50.1789,
+    "canon_not": 8836,
+    "gains": 289,
+    "gain_rate": 3.2707
+   },
+   "all": {
+    "canon_hc": 2183,
+    "losses": 971,
+    "loss_rate": 44.4801,
+    "canon_not": 16325,
+    "gains": 517,
+    "gain_rate": 3.1669
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 667,
+     "losses": 64,
+     "rate": 9.5952
+    },
+    "90to100": {
+     "n": 252,
+     "losses": 55,
+     "rate": 21.8254
+    },
+    "50to90": {
+     "n": 414,
+     "losses": 230,
+     "rate": 55.5556
+    },
+    "lt50": {
+     "n": 329,
+     "losses": 303,
+     "rate": 92.0973
+    }
+   }
+  },
+  "grid_ipsae0.5_pdockq20.23": {
+   "addition": {
+    "canon_hc": 146,
+    "losses": 28,
+    "loss_rate": 19.1781,
+    "canon_not": 1153,
+    "gains": 19,
+    "gain_rate": 1.6479
+   },
+   "subtraction": {
+    "canon_hc": 779,
+    "losses": 348,
+    "loss_rate": 44.6727,
+    "canon_not": 6476,
+    "gains": 178,
+    "gain_rate": 2.7486
+   },
+   "replacement": {
+    "canon_hc": 974,
+    "losses": 502,
+    "loss_rate": 51.54,
+    "canon_not": 8980,
+    "gains": 261,
+    "gain_rate": 2.9065
+   },
+   "all": {
+    "canon_hc": 1899,
+    "losses": 878,
+    "loss_rate": 46.2349,
+    "canon_not": 16609,
+    "gains": 458,
+    "gain_rate": 2.7575
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 667,
+     "losses": 103,
+     "rate": 15.4423
+    },
+    "90to100": {
+     "n": 252,
+     "losses": 75,
+     "rate": 29.7619
+    },
+    "50to90": {
+     "n": 414,
+     "losses": 254,
+     "rate": 61.3527
+    },
+    "lt50": {
+     "n": 329,
+     "losses": 305,
+     "rate": 92.7052
+    }
+   }
+  },
+  "grid_ipsae0.5_pdockq20.3": {
+   "addition": {
+    "canon_hc": 129,
+    "losses": 28,
+    "loss_rate": 21.7054,
+    "canon_not": 1170,
+    "gains": 19,
+    "gain_rate": 1.6239
+   },
+   "subtraction": {
+    "canon_hc": 710,
+    "losses": 331,
+    "loss_rate": 46.6197,
+    "canon_not": 6545,
+    "gains": 150,
+    "gain_rate": 2.2918
+   },
+   "replacement": {
+    "canon_hc": 841,
+    "losses": 440,
+    "loss_rate": 52.3187,
+    "canon_not": 9113,
+    "gains": 247,
+    "gain_rate": 2.7104
+   },
+   "all": {
+    "canon_hc": 1680,
+    "losses": 799,
+    "loss_rate": 47.5595,
+    "canon_not": 16828,
+    "gains": 416,
+    "gain_rate": 2.4721
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 612,
+     "losses": 103,
+     "rate": 16.8301
+    },
+    "90to100": {
+     "n": 215,
+     "losses": 69,
+     "rate": 32.093
+    },
+    "50to90": {
+     "n": 378,
+     "losses": 241,
+     "rate": 63.7566
+    },
+    "lt50": {
+     "n": 298,
+     "losses": 279,
+     "rate": 93.6242
+    }
+   }
+  },
+  "grid_ipsae0.55_pdockq20.15": {
+   "addition": {
+    "canon_hc": 168,
+    "losses": 32,
+    "loss_rate": 19.0476,
+    "canon_not": 1131,
+    "gains": 19,
+    "gain_rate": 1.6799
+   },
+   "subtraction": {
+    "canon_hc": 847,
+    "losses": 356,
+    "loss_rate": 42.0307,
+    "canon_not": 6408,
+    "gains": 170,
+    "gain_rate": 2.6529
+   },
+   "replacement": {
+    "canon_hc": 1056,
+    "losses": 553,
+    "loss_rate": 52.3674,
+    "canon_not": 8898,
+    "gains": 229,
+    "gain_rate": 2.5736
+   },
+   "all": {
+    "canon_hc": 2071,
+    "losses": 941,
+    "loss_rate": 45.437,
+    "canon_not": 16437,
+    "gains": 418,
+    "gain_rate": 2.543
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 667,
+     "losses": 71,
+     "rate": 10.6447
+    },
+    "90to100": {
+     "n": 252,
+     "losses": 61,
+     "rate": 24.2063
+    },
+    "50to90": {
+     "n": 414,
+     "losses": 235,
+     "rate": 56.7633
+    },
+    "lt50": {
+     "n": 329,
+     "losses": 308,
+     "rate": 93.617
+    }
+   }
+  },
+  "grid_ipsae0.55_pdockq20.23": {
+   "addition": {
+    "canon_hc": 144,
+    "losses": 30,
+    "loss_rate": 20.8333,
+    "canon_not": 1155,
+    "gains": 19,
+    "gain_rate": 1.645
+   },
+   "subtraction": {
+    "canon_hc": 747,
+    "losses": 328,
+    "loss_rate": 43.909,
+    "canon_not": 6508,
+    "gains": 151,
+    "gain_rate": 2.3202
+   },
+   "replacement": {
+    "canon_hc": 917,
+    "losses": 492,
+    "loss_rate": 53.6532,
+    "canon_not": 9037,
+    "gains": 221,
+    "gain_rate": 2.4455
+   },
+   "all": {
+    "canon_hc": 1808,
+    "losses": 850,
+    "loss_rate": 47.0133,
+    "canon_not": 16700,
+    "gains": 391,
+    "gain_rate": 2.3413
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 667,
+     "losses": 109,
+     "rate": 16.3418
+    },
+    "90to100": {
+     "n": 252,
+     "losses": 79,
+     "rate": 31.3492
+    },
+    "50to90": {
+     "n": 414,
+     "losses": 258,
+     "rate": 62.3188
+    },
+    "lt50": {
+     "n": 329,
+     "losses": 309,
+     "rate": 93.921
+    }
+   }
+  },
+  "grid_ipsae0.55_pdockq20.3": {
+   "addition": {
+    "canon_hc": 127,
+    "losses": 29,
+    "loss_rate": 22.8346,
+    "canon_not": 1172,
+    "gains": 19,
+    "gain_rate": 1.6212
+   },
+   "subtraction": {
+    "canon_hc": 690,
+    "losses": 318,
+    "loss_rate": 46.087,
+    "canon_not": 6565,
+    "gains": 133,
+    "gain_rate": 2.0259
+   },
+   "replacement": {
+    "canon_hc": 804,
+    "losses": 431,
+    "loss_rate": 53.607,
+    "canon_not": 9150,
+    "gains": 210,
+    "gain_rate": 2.2951
+   },
+   "all": {
+    "canon_hc": 1621,
+    "losses": 778,
+    "loss_rate": 47.9951,
+    "canon_not": 16887,
+    "gains": 362,
+    "gain_rate": 2.1437
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 612,
+     "losses": 106,
+     "rate": 17.3203
+    },
+    "90to100": {
+     "n": 215,
+     "losses": 70,
+     "rate": 32.5581
+    },
+    "50to90": {
+     "n": 378,
+     "losses": 244,
+     "rate": 64.5503
+    },
+    "lt50": {
+     "n": 298,
+     "losses": 281,
+     "rate": 94.2953
+    }
+   }
+  },
+  "grid_ipsae0.65_pdockq20.15": {
+   "addition": {
+    "canon_hc": 136,
+    "losses": 27,
+    "loss_rate": 19.8529,
+    "canon_not": 1163,
+    "gains": 14,
+    "gain_rate": 1.2038
+   },
+   "subtraction": {
+    "canon_hc": 706,
+    "losses": 310,
+    "loss_rate": 43.9093,
+    "canon_not": 6549,
+    "gains": 115,
+    "gain_rate": 1.756
+   },
+   "replacement": {
+    "canon_hc": 844,
+    "losses": 475,
+    "loss_rate": 56.2796,
+    "canon_not": 9110,
+    "gains": 174,
+    "gain_rate": 1.91
+   },
+   "all": {
+    "canon_hc": 1686,
+    "losses": 812,
+    "loss_rate": 48.1613,
+    "canon_not": 16822,
+    "gains": 303,
+    "gain_rate": 1.8012
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 586,
+     "losses": 84,
+     "rate": 14.3345
+    },
+    "90to100": {
+     "n": 234,
+     "losses": 66,
+     "rate": 28.2051
+    },
+    "50to90": {
+     "n": 378,
+     "losses": 246,
+     "rate": 65.0794
+    },
+    "lt50": {
+     "n": 298,
+     "losses": 291,
+     "rate": 97.651
+    }
+   }
+  },
+  "grid_ipsae0.65_pdockq20.23": {
+   "addition": {
+    "canon_hc": 118,
+    "losses": 25,
+    "loss_rate": 21.1864,
+    "canon_not": 1181,
+    "gains": 16,
+    "gain_rate": 1.3548
+   },
+   "subtraction": {
+    "canon_hc": 642,
+    "losses": 293,
+    "loss_rate": 45.6386,
+    "canon_not": 6613,
+    "gains": 104,
+    "gain_rate": 1.5727
+   },
+   "replacement": {
+    "canon_hc": 736,
+    "losses": 414,
+    "loss_rate": 56.25,
+    "canon_not": 9218,
+    "gains": 167,
+    "gain_rate": 1.8117
+   },
+   "all": {
+    "canon_hc": 1496,
+    "losses": 732,
+    "loss_rate": 48.9305,
+    "canon_not": 17012,
+    "gains": 287,
+    "gain_rate": 1.687
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 586,
+     "losses": 104,
+     "rate": 17.7474
+    },
+    "90to100": {
+     "n": 234,
+     "losses": 78,
+     "rate": 33.3333
+    },
+    "50to90": {
+     "n": 378,
+     "losses": 259,
+     "rate": 68.5185
+    },
+    "lt50": {
+     "n": 298,
+     "losses": 291,
+     "rate": 97.651
+    }
+   }
+  },
+  "grid_ipsae0.65_pdockq20.3": {
+   "addition": {
+    "canon_hc": 106,
+    "losses": 23,
+    "loss_rate": 21.6981,
+    "canon_not": 1193,
+    "gains": 15,
+    "gain_rate": 1.2573
+   },
+   "subtraction": {
+    "canon_hc": 602,
+    "losses": 287,
+    "loss_rate": 47.6744,
+    "canon_not": 6653,
+    "gains": 99,
+    "gain_rate": 1.4881
+   },
+   "replacement": {
+    "canon_hc": 662,
+    "losses": 379,
+    "loss_rate": 57.2508,
+    "canon_not": 9292,
+    "gains": 170,
+    "gain_rate": 1.8295
+   },
+   "all": {
+    "canon_hc": 1370,
+    "losses": 689,
+    "loss_rate": 50.292,
+    "canon_not": 17138,
+    "gains": 284,
+    "gain_rate": 1.6571
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 545,
+     "losses": 104,
+     "rate": 19.0826
+    },
+    "90to100": {
+     "n": 206,
+     "losses": 76,
+     "rate": 36.8932
+    },
+    "50to90": {
+     "n": 348,
+     "losses": 244,
+     "rate": 70.1149
+    },
+    "lt50": {
+     "n": 271,
+     "losses": 265,
+     "rate": 97.786
+    }
+   }
+  },
+  "grid_ipsae0.7_pdockq20.15": {
+   "addition": {
+    "canon_hc": 113,
+    "losses": 17,
+    "loss_rate": 15.0442,
+    "canon_not": 1186,
+    "gains": 13,
+    "gain_rate": 1.0961
+   },
+   "subtraction": {
+    "canon_hc": 617,
+    "losses": 275,
+    "loss_rate": 44.5705,
+    "canon_not": 6638,
+    "gains": 92,
+    "gain_rate": 1.386
+   },
+   "replacement": {
+    "canon_hc": 696,
+    "losses": 392,
+    "loss_rate": 56.3218,
+    "canon_not": 9258,
+    "gains": 141,
+    "gain_rate": 1.523
+   },
+   "all": {
+    "canon_hc": 1426,
+    "losses": 684,
+    "loss_rate": 47.9663,
+    "canon_not": 17082,
+    "gains": 246,
+    "gain_rate": 1.4401
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 496,
+     "losses": 67,
+     "rate": 13.5081
+    },
+    "90to100": {
+     "n": 211,
+     "losses": 60,
+     "rate": 28.436
+    },
+    "50to90": {
+     "n": 342,
+     "losses": 233,
+     "rate": 68.1287
+    },
+    "lt50": {
+     "n": 251,
+     "losses": 247,
+     "rate": 98.4064
+    }
+   }
+  },
+  "grid_ipsae0.7_pdockq20.23": {
+   "addition": {
+    "canon_hc": 97,
+    "losses": 17,
+    "loss_rate": 17.5258,
+    "canon_not": 1202,
+    "gains": 16,
+    "gain_rate": 1.3311
+   },
+   "subtraction": {
+    "canon_hc": 577,
+    "losses": 272,
+    "loss_rate": 47.1404,
+    "canon_not": 6678,
+    "gains": 85,
+    "gain_rate": 1.2728
+   },
+   "replacement": {
+    "canon_hc": 626,
+    "losses": 354,
+    "loss_rate": 56.5495,
+    "canon_not": 9328,
+    "gains": 137,
+    "gain_rate": 1.4687
+   },
+   "all": {
+    "canon_hc": 1300,
+    "losses": 643,
+    "loss_rate": 49.4615,
+    "canon_not": 17208,
+    "gains": 238,
+    "gain_rate": 1.3831
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 496,
+     "losses": 83,
+     "rate": 16.7339
+    },
+    "90to100": {
+     "n": 211,
+     "losses": 69,
+     "rate": 32.7014
+    },
+    "50to90": {
+     "n": 342,
+     "losses": 244,
+     "rate": 71.345
+    },
+    "lt50": {
+     "n": 251,
+     "losses": 247,
+     "rate": 98.4064
+    }
+   }
+  },
+  "grid_ipsae0.7_pdockq20.3": {
+   "addition": {
+    "canon_hc": 86,
+    "losses": 12,
+    "loss_rate": 13.9535,
+    "canon_not": 1213,
+    "gains": 15,
+    "gain_rate": 1.2366
+   },
+   "subtraction": {
+    "canon_hc": 548,
+    "losses": 270,
+    "loss_rate": 49.2701,
+    "canon_not": 6707,
+    "gains": 82,
+    "gain_rate": 1.2226
+   },
+   "replacement": {
+    "canon_hc": 564,
+    "losses": 324,
+    "loss_rate": 57.4468,
+    "canon_not": 9390,
+    "gains": 143,
+    "gain_rate": 1.5229
+   },
+   "all": {
+    "canon_hc": 1198,
+    "losses": 606,
+    "loss_rate": 50.5843,
+    "canon_not": 17310,
+    "gains": 240,
+    "gain_rate": 1.3865
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 461,
+     "losses": 79,
+     "rate": 17.1367
+    },
+    "90to100": {
+     "n": 188,
+     "losses": 66,
+     "rate": 35.1064
+    },
+    "50to90": {
+     "n": 316,
+     "losses": 232,
+     "rate": 73.4177
+    },
+    "lt50": {
+     "n": 233,
+     "losses": 229,
+     "rate": 98.2833
+    }
+   }
+  },
+  "grid_ipsae0.6_pdockq20.15": {
+   "addition": {
+    "canon_hc": 151,
+    "losses": 26,
+    "loss_rate": 17.2185,
+    "canon_not": 1148,
+    "gains": 18,
+    "gain_rate": 1.5679
+   },
+   "subtraction": {
+    "canon_hc": 789,
+    "losses": 341,
+    "loss_rate": 43.2193,
+    "canon_not": 6466,
+    "gains": 132,
+    "gain_rate": 2.0414
+   },
+   "replacement": {
+    "canon_hc": 949,
+    "losses": 505,
+    "loss_rate": 53.2139,
+    "canon_not": 9005,
+    "gains": 212,
+    "gain_rate": 2.3542
+   },
+   "all": {
+    "canon_hc": 1889,
+    "losses": 872,
+    "loss_rate": 46.162,
+    "canon_not": 16619,
+    "gains": 362,
+    "gain_rate": 2.1782
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 667,
+     "losses": 89,
+     "rate": 13.3433
+    },
+    "90to100": {
+     "n": 252,
+     "losses": 64,
+     "rate": 25.3968
+    },
+    "50to90": {
+     "n": 414,
+     "losses": 261,
+     "rate": 63.0435
+    },
+    "lt50": {
+     "n": 329,
+     "losses": 309,
+     "rate": 93.921
+    }
+   }
+  },
+  "grid_ipsae0.6_pdockq20.3": {
+   "addition": {
+    "canon_hc": 115,
+    "losses": 24,
+    "loss_rate": 20.8696,
+    "canon_not": 1184,
+    "gains": 20,
+    "gain_rate": 1.6892
+   },
+   "subtraction": {
+    "canon_hc": 655,
+    "losses": 305,
+    "loss_rate": 46.5649,
+    "canon_not": 6600,
+    "gains": 110,
+    "gain_rate": 1.6667
+   },
+   "replacement": {
+    "canon_hc": 733,
+    "losses": 400,
+    "loss_rate": 54.5703,
+    "canon_not": 9221,
+    "gains": 198,
+    "gain_rate": 2.1473
+   },
+   "all": {
+    "canon_hc": 1503,
+    "losses": 729,
+    "loss_rate": 48.503,
+    "canon_not": 17005,
+    "gains": 328,
+    "gain_rate": 1.9288
+   },
+   "loss_by_retention": {
+    "all": {
+     "n": 612,
+     "losses": 115,
+     "rate": 18.7908
+    },
+    "90to100": {
+     "n": 215,
+     "losses": 72,
+     "rate": 33.4884
+    },
+    "50to90": {
+     "n": 378,
+     "losses": 260,
+     "rate": 68.7831
+    },
+    "lt50": {
+     "n": 298,
+     "losses": 282,
+     "rate": 94.6309
+    }
+   }
+  },
+  "iptm_vs_call": {
+   "n": 29447,
+   "deposited": 2190,
+   "by_band": {
+    "<0.5": {
+     "deposited": 209,
+     "n": 24990,
+     "pct": 0.8363
+    },
+    "0.5-0.6": {
+     "deposited": 248,
+     "n": 1500,
+     "pct": 16.5333
+    },
+    "0.6-0.8": {
+     "deposited": 827,
+     "n": 1981,
+     "pct": 41.7466
+    },
+    ">=0.8": {
+     "deposited": 906,
+     "n": 976,
+     "pct": 92.8279
+    }
+   },
+   "iptm_ge08_not_deposited": 70,
+   "deposited_iptm_lt06": 457
+  }
+ },
+ "origin": {
+  "classes_by_origin": {
+   "alternative initiation only|addition": 19,
+   "alternative initiation only|internal deletion": 2,
+   "alternative initiation only|replacement": 10,
+   "alternative initiation only|truncation": 66,
+   "alternative promoter without splicing|addition": 3,
+   "alternative promoter without splicing|internal deletion": 1,
+   "alternative promoter without splicing|replacement": 9,
+   "alternative promoter without splicing|truncation": 7,
+   "alternative splicing only|addition": 1343,
+   "alternative splicing only|internal deletion": 4839,
+   "alternative splicing only|replacement": 10516,
+   "alternative splicing only|truncation": 2746,
+   "splicing with promoter or initiation|addition": 40,
+   "splicing with promoter or initiation|internal deletion": 106,
+   "splicing with promoter or initiation|replacement": 323,
+   "splicing with promoter or initiation|truncation": 133
+  }
+ },
+ "monomers": {
+  "isoforms_with_added": 12263,
+  "isoforms_with_added_monomer": 12216,
+  "added_residues": 376017,
+  "shared_residues": 5159907,
+  "added_lt50": 66.7922,
+  "added_ge70": 12.2428,
+  "shared_lt50": 25.3635,
+  "shared_ge70": 64.5985,
+  "added_by_site": {
+   "N": {
+    "n": 106893,
+    "lt50": 71.6445,
+    "ge70": 10.3767
+   },
+   "C": {
+    "n": 205512,
+    "lt50": 63.4532,
+    "ge70": 12.1161
+   },
+   "I": {
+    "n": 63612,
+    "lt50": 69.4256,
+    "ge70": 15.7879
+   }
+  },
+  "added_by_class": {
+   "addition": {
+    "isoforms": 1391,
+    "added_residues": 42005,
+    "added_lt50": 76.0076,
+    "added_ge70": 8.2014,
+    "isoforms_majority_lt50": 978
+   },
+   "replacement": {
+    "isoforms": 10825,
+    "added_residues": 334012,
+    "added_lt50": 65.6333,
+    "added_ge70": 12.751,
+    "isoforms_majority_lt50": 6338
+   }
+  },
+  "isoforms_majority_added_lt50": 7316,
+  "removed_residues": 2938264,
+  "removed_lt50": 35.7667,
+  "kept_lt50": 26.9345,
+  "removed_ge70": 54.692,
+  "kept_ge70": 64.4217,
+  "swaps": {
+   "homologous": {
+    "n": 98,
+    "removed_median": 84.463,
+    "added_median": 81.6559,
+    "added_ge70": 67,
+    "added_lt50": 10
+   },
+   "other": {
+    "n": 11195,
+    "removed_median": 66.8143,
+    "added_median": 47.7267,
+    "added_ge70": 1460,
+    "added_lt50": 6315
+   }
+  },
+  "gains_by_confident_added": {
+   "none added": {
+    "n": 6549,
+    "gains": 119,
+    "rate": 1.8171
+   },
+   "0 confident": {
+    "n": 6480,
+    "gains": 145,
+    "rate": 2.2377
+   },
+   "1-9 confident": {
+    "n": 2835,
+    "gains": 65,
+    "rate": 2.2928
+   },
+   "10+ confident": {
+    "n": 982,
+    "gains": 15,
+    "rate": 1.5275
+   },
+   "10plus_vs_0": {
+    "OR": 0.6777,
+    "p": 0.1921
+   }
+  },
+  "shared_fold": {
+   "pairs": 18503,
+   "intact": {
+    "n": 667,
+    "losses": 121,
+    "d_median_loss": -0.4558,
+    "d_median_kept": -0.0832,
+    "p_mwu": 0.0005506
+   },
+   "intact_loss_by_d": {
+    "0+": {
+     "n": 270,
+     "losses": 34,
+     "rate": 12.5926
+    },
+    "-2to0": {
+     "n": 314,
+     "losses": 62,
+     "rate": 19.7452
+    },
+    "-5to-2": {
+     "n": 68,
+     "losses": 20,
+     "rate": 29.4118
+    },
+    "lt-5": {
+     "n": 15,
+     "losses": 5,
+     "rate": 33.3333
+    }
+   }
+  }
+ }
+}

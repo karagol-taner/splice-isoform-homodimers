@@ -1,0 +1,150 @@
+{
+ "predictor": "AIUPred",
+ "aiupred_version": "3.1.3",
+ "torch_version": "2.14.1",
+ "cutoff": 0.5,
+ "isoforms": 12216,
+ "added": {
+  "residues": 376017,
+  "disordered": 65.5771,
+  "plddt_lt50": {
+   "residues": 251150,
+   "disordered": 72.3293
+  },
+  "plddt_ge70": {
+   "residues": 46035,
+   "disordered": 34.4738
+  }
+ },
+ "shared": {
+  "residues": 5159907,
+  "disordered": 35.5735,
+  "plddt_lt50": {
+   "residues": 1308733,
+   "disordered": 87.8571
+  },
+  "plddt_ge70": {
+   "residues": 3333221,
+   "disordered": 11.81
+  }
+ },
+ "added_by_site": {
+  "N": {
+   "residues": 106893,
+   "disordered": 74.2275
+  },
+  "C": {
+   "residues": 205512,
+   "disordered": 63.7637
+  },
+  "I": {
+   "residues": 63612,
+   "disordered": 56.8996
+  }
+ },
+ "added_by_class": {
+  "addition": {
+   "residues": 42005,
+   "disordered": 68.3561
+  },
+  "replacement": {
+   "residues": 334012,
+   "disordered": 65.2276
+  }
+ },
+ "isoforms_majority_added_disordered": 7522,
+ "interface_models_sequence_matched": {
+  "models": 726,
+  "matched": 726
+ },
+ "surface_added_disordered": 64.2335,
+ "surface_shared_disordered": 30.5457,
+ "interface_models": {
+  "unadjusted": {
+   "OR": 0.2353,
+   "lo": 0.2195,
+   "hi": 0.2523,
+   "p": 0.0,
+   "n_residues": 196198
+  },
+  "disorder_adjusted": {
+   "OR": 0.3443,
+   "lo": 0.3206,
+   "hi": 0.3697,
+   "p": 2.51e-189,
+   "n_residues": 196198
+  },
+  "plddt_adjusted": {
+   "OR": 0.9527,
+   "lo": 0.8825,
+   "hi": 1.0284,
+   "p": 0.214,
+   "n_residues": 196198
+  },
+  "plddt_and_disorder": {
+   "OR": 0.9353,
+   "lo": 0.8663,
+   "hi": 1.0099,
+   "p": 0.0876,
+   "n_residues": 196198
+  }
+ },
+ "interface_by_disorder": [
+  {
+   "dbin": "lt25",
+   "novel": false,
+   "n": 99835,
+   "iface": 22674,
+   "iface_rate": 22.7115
+  },
+  {
+   "dbin": "lt25",
+   "novel": true,
+   "n": 3785,
+   "iface": 331,
+   "iface_rate": 8.745
+  },
+  {
+   "dbin": "25to50",
+   "novel": false,
+   "n": 24368,
+   "iface": 5665,
+   "iface_rate": 23.2477
+  },
+  {
+   "dbin": "25to50",
+   "novel": true,
+   "n": 2428,
+   "iface": 131,
+   "iface_rate": 5.3954
+  },
+  {
+   "dbin": "50to75",
+   "novel": false,
+   "n": 13805,
+   "iface": 2208,
+   "iface_rate": 15.9942
+  },
+  {
+   "dbin": "50to75",
+   "novel": true,
+   "n": 2343,
+   "iface": 110,
+   "iface_rate": 4.6948
+  },
+  {
+   "dbin": "ge75",
+   "novel": false,
+   "n": 40819,
+   "iface": 1698,
+   "iface_rate": 4.1598
+  },
+  {
+   "dbin": "ge75",
+   "novel": true,
+   "n": 8815,
+   "iface": 283,
+   "iface_rate": 3.2104
+  }
+ ]
+}

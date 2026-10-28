@@ -1,0 +1,17 @@
+{
+ "manifest_human_rows": 91641,
+ "queried_accessions": 32719,
+ "queried_predicted": 29447,
+ "queried_not_predicted": 3272,
+ "served": 2190,
+ "served_not_in_manifest": 0,
+ "rule_vs_served_mismatches": 0,
+ "served_api_ipsae_within_001_of_larger_direction": 2190,
+ "served_api_pdockq2_within_001_of_larger_direction": 2190,
+ "served_smaller_direction_ipsae_below_06": 13,
+ "served_whole_model_plddt_below_70": 410,
+ "served_backbone_clashes_above_10": 116,
+ "predicted_ipsae_ge06": 3484,
+ "predicted_ipsae_ge06_pdockq2_lt023": 1294,
+ "predicted_ipsae_lt06_pdockq2_ge023": 776
+}

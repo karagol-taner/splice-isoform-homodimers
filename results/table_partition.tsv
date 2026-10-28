@@ -1,0 +1,8 @@
+class	length_relation	pairs	novel_ge10	median_novel	median_deleted
+addition	longer	1405	1014	21.0	0.0
+internal deletion	shorter	4948	0	0.0	41.0
+replacement	equal	115	90	21.0	21.0
+replacement	longer	1455	1374	45.0	19.0
+replacement	shorter	9288	6052	16.0	137.0
+truncation	shorter	2952	0	0.0	104.0
+unrelated	shorter	8	8	87.5	403.5

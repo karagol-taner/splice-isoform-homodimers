@@ -1,0 +1,2668 @@
+{
+ "O75638-2": {
+  "gene": "CTAG2",
+  "isoform_length": 180,
+  "canonical_length": 210,
+  "added_residues": 46,
+  "release": "02-SEP-2026, entry version 183.",
+  "uniprot_xrefs": {
+   "Ensembl": [
+    {
+     "ids": [
+      "ENST00000247306.4",
+      "ENSP00000247306.4",
+      "ENSG00000126890.14"
+     ],
+     "isoform_tag": "O75638-1"
+    },
+    {
+     "ids": [
+      "ENST00000369585.4",
+      "ENSP00000358598.3",
+      "ENSG00000126890.14"
+     ],
+     "isoform_tag": "O75638-2"
+    }
+   ],
+   "RefSeq": [
+    {
+     "ids": [
+      "NP_066274.2",
+      "NM_020994.5"
+     ],
+     "isoform_tag": "O75638-1"
+    },
+    {
+     "ids": [
+      "NP_758965.2",
+      "NM_172377.5"
+     ],
+     "isoform_tag": "O75638-2"
+    }
+   ],
+   "CCDS": [
+    {
+     "ids": [
+      "CCDS14759.1"
+     ],
+     "isoform_tag": "O75638-1"
+    },
+    {
+     "ids": [
+      "CCDS35455.1"
+     ],
+     "isoform_tag": "O75638-2"
+    }
+   ],
+   "MANE-Select": [
+    {
+     "ids": [
+      "ENST00000369585.4",
+      "ENSP00000358598.3",
+      "NM_172377.5",
+      "NP_758965.2"
+     ],
+     "isoform_tag": "O75638-2"
+    }
+   ]
+  },
+  "isoform_xrefs": {
+   "Ensembl": [
+    [
+     "ENST00000369585.4",
+     "ENSP00000358598.3",
+     "ENSG00000126890.14"
+    ]
+   ],
+   "RefSeq": [
+    [
+     "NP_758965.2",
+     "NM_172377.5"
+    ]
+   ],
+   "CCDS": [
+    [
+     "CCDS35455.1"
+    ]
+   ],
+   "MANE-Select": [
+    [
+     "ENST00000369585.4",
+     "ENSP00000358598.3",
+     "NM_172377.5",
+     "NP_758965.2"
+    ]
+   ]
+  },
+  "mane_select": "isoform",
+  "peptides_mapped": 14,
+  "isoform_specific_peptides": 4,
+  "isoform_specific_peptides_within_added": 1,
+  "isoform_specific_max_samples": 23,
+  "isoform_specific_peptides_also_in_other_genes": 0,
+  "peptide_list": [
+   {
+    "begin": 119,
+    "end": 136,
+    "peptide": "PGAVLKDFTVSGNLLFIR",
+    "added_overlap": 2,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "5",
+    "observations": "30",
+    "other_genes": []
+   },
+   {
+    "begin": 112,
+    "end": 136,
+    "peptide": "DAAPLPRPGAVLKDFTVSGNLLFIR",
+    "added_overlap": 2,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "8",
+    "observations": "68",
+    "other_genes": []
+   },
+   {
+    "begin": 125,
+    "end": 136,
+    "peptide": "DFTVSGNLLFIR",
+    "added_overlap": 2,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "23",
+    "observations": "93",
+    "other_genes": []
+   },
+   {
+    "begin": 144,
+    "end": 179,
+    "peptide": "QLQLSISSCLQQLSLLMWITQCFLPVFLAQAPSGQR",
+    "added_overlap": 36,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "35",
+    "other_genes": []
+   }
+  ],
+  "gene_proteins": [
+   {
+    "protein": "ENSP00000247306",
+    "length": 210,
+    "transcript": "ENST00000247306",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": true,
+    "isoform_residues_matched": 134,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 210
+   },
+   {
+    "protein": "ENSP00000358598",
+    "length": 180,
+    "transcript": "ENST00000369585",
+    "ensembl_canonical": true,
+    "identical_to_isoform": true,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 180,
+    "added_residues_matched": 46,
+    "canonical_residues_matched": 134
+   },
+   {
+    "protein": "NP_066274.2",
+    "length": 210,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": true,
+    "isoform_residues_matched": 134,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 210
+   },
+   {
+    "protein": "NP_758965.2",
+    "length": 180,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": true,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 180,
+    "added_residues_matched": 46,
+    "canonical_residues_matched": 134
+   }
+  ]
+ },
+ "Q96RF0-2": {
+  "gene": "SNX18",
+  "isoform_length": 624,
+  "canonical_length": 628,
+  "added_residues": 83,
+  "release": "02-SEP-2026, entry version 193.",
+  "uniprot_xrefs": {
+   "Ensembl": [
+    {
+     "ids": [
+      "ENST00000326277.5",
+      "ENSP00000317332.4",
+      "ENSG00000178996.15"
+     ],
+     "isoform_tag": "Q96RF0-3"
+    },
+    {
+     "ids": [
+      "ENST00000343017.11",
+      "ENSP00000342276.7",
+      "ENSG00000178996.15"
+     ],
+     "isoform_tag": "Q96RF0-1"
+    },
+    {
+     "ids": [
+      "ENST00000381410.5",
+      "ENSP00000370817.4",
+      "ENSG00000178996.15"
+     ],
+     "isoform_tag": "Q96RF0-2"
+    }
+   ],
+   "RefSeq": [
+    {
+     "ids": [
+      "NP_001096045.1",
+      "NM_001102575.2"
+     ],
+     "isoform_tag": "Q96RF0-2"
+    },
+    {
+     "ids": [
+      "NP_001138899.1",
+      "NM_001145427.2"
+     ],
+     "isoform_tag": "Q96RF0-3"
+    },
+    {
+     "ids": [
+      "NP_443102.2",
+      "NM_052870.4"
+     ],
+     "isoform_tag": "Q96RF0-1"
+    }
+   ],
+   "CCDS": [
+    {
+     "ids": [
+      "CCDS3962.1"
+     ],
+     "isoform_tag": "Q96RF0-1"
+    },
+    {
+     "ids": [
+      "CCDS43317.1"
+     ],
+     "isoform_tag": "Q96RF0-2"
+    },
+    {
+     "ids": [
+      "CCDS54851.1"
+     ],
+     "isoform_tag": "Q96RF0-3"
+    }
+   ],
+   "MANE-Select": [
+    {
+     "ids": [
+      "ENST00000381410.5",
+      "ENSP00000370817.4",
+      "NM_001102575.2",
+      "NP_001096045.1"
+     ],
+     "isoform_tag": "Q96RF0-2"
+    }
+   ]
+  },
+  "isoform_xrefs": {
+   "Ensembl": [
+    [
+     "ENST00000381410.5",
+     "ENSP00000370817.4",
+     "ENSG00000178996.15"
+    ]
+   ],
+   "RefSeq": [
+    [
+     "NP_001096045.1",
+     "NM_001102575.2"
+    ]
+   ],
+   "CCDS": [
+    [
+     "CCDS43317.1"
+    ]
+   ],
+   "MANE-Select": [
+    [
+     "ENST00000381410.5",
+     "ENSP00000370817.4",
+     "NM_001102575.2",
+     "NP_001096045.1"
+    ]
+   ]
+  },
+  "mane_select": "isoform",
+  "peptides_mapped": 118,
+  "isoform_specific_peptides": 19,
+  "isoform_specific_peptides_within_added": 14,
+  "isoform_specific_max_samples": 335,
+  "isoform_specific_peptides_also_in_other_genes": 0,
+  "peptide_list": [
+   {
+    "begin": 558,
+    "end": 569,
+    "peptide": "MEVQKADGIQDR",
+    "added_overlap": 12,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "13",
+    "observations": "73",
+    "other_genes": []
+   },
+   {
+    "begin": 570,
+    "end": 588,
+    "peptide": "CNTISFATLAEIHHFHQIR",
+    "added_overlap": 19,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "210",
+    "observations": "1557",
+    "other_genes": []
+   },
+   {
+    "begin": 551,
+    "end": 557,
+    "peptide": "RHVEEGK",
+    "added_overlap": 7,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "26",
+    "observations": "108",
+    "other_genes": []
+   },
+   {
+    "begin": 552,
+    "end": 569,
+    "peptide": "HVEEGKMEVQKADGIQDR",
+    "added_overlap": 18,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "11",
+    "observations": "33",
+    "other_genes": []
+   },
+   {
+    "begin": 594,
+    "end": 609,
+    "peptide": "SQMQHFLQQQIIFFQK",
+    "added_overlap": 16,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "335",
+    "observations": "2299",
+    "other_genes": []
+   },
+   {
+    "begin": 526,
+    "end": 543,
+    "peptide": "QGHLANFPDIIHVQKGAL",
+    "added_overlap": 2,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "3",
+    "other_genes": []
+   },
+   {
+    "begin": 576,
+    "end": 584,
+    "peptide": "ATLAEIHHF",
+    "added_overlap": 9,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "9",
+    "observations": "75",
+    "other_genes": []
+   },
+   {
+    "begin": 551,
+    "end": 562,
+    "peptide": "RHVEEGKMEVQK",
+    "added_overlap": 12,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "18",
+    "observations": "66",
+    "other_genes": []
+   },
+   {
+    "begin": 552,
+    "end": 562,
+    "peptide": "HVEEGKMEVQK",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "22",
+    "observations": "84",
+    "other_genes": []
+   },
+   {
+    "begin": 614,
+    "end": 620,
+    "peptide": "LEEALHK",
+    "added_overlap": 7,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "28",
+    "observations": "306",
+    "other_genes": []
+   },
+   {
+    "begin": 610,
+    "end": 624,
+    "peptide": "VTQKLEEALHKYDSV",
+    "added_overlap": 15,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "37",
+    "observations": "169",
+    "other_genes": []
+   },
+   {
+    "begin": 530,
+    "end": 543,
+    "peptide": "ANFPDIIHVQKGAL",
+    "added_overlap": 2,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 513,
+    "end": 545,
+    "peptide": "QDLDPVMDLLALYQGHLANFPDIIHVQKGALTK",
+    "added_overlap": 4,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "10",
+    "other_genes": []
+   },
+   {
+    "begin": 610,
+    "end": 620,
+    "peptide": "VTQKLEEALHK",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "60",
+    "observations": "357",
+    "other_genes": []
+   },
+   {
+    "begin": 535,
+    "end": 548,
+    "peptide": "IIHVQKGALTKVKE",
+    "added_overlap": 7,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "3",
+    "other_genes": []
+   },
+   {
+    "begin": 521,
+    "end": 548,
+    "peptide": "LLALYQGHLANFPDIIHVQKGALTKVKE",
+    "added_overlap": 7,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "7",
+    "other_genes": []
+   },
+   {
+    "begin": 563,
+    "end": 569,
+    "peptide": "ADGIQDR",
+    "added_overlap": 7,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "8",
+    "observations": "81",
+    "other_genes": []
+   },
+   {
+    "begin": 614,
+    "end": 624,
+    "peptide": "LEEALHKYDSV",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "34",
+    "observations": "95",
+    "other_genes": []
+   },
+   {
+    "begin": 563,
+    "end": 593,
+    "peptide": "ADGIQDRCNTISFATLAEIHHFHQIRVRDFK",
+    "added_overlap": 31,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "11",
+    "other_genes": []
+   }
+  ],
+  "gene_proteins": [
+   {
+    "protein": "ENSP00000317332",
+    "length": 591,
+    "transcript": "ENST00000326277",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 541,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 591
+   },
+   {
+    "protein": "ENSP00000370817",
+    "length": 624,
+    "transcript": "ENST00000381410",
+    "ensembl_canonical": true,
+    "identical_to_isoform": true,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 624,
+    "added_residues_matched": 83,
+    "canonical_residues_matched": 541
+   },
+   {
+    "protein": "ENSP00000342276",
+    "length": 628,
+    "transcript": "ENST00000343017",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": true,
+    "isoform_residues_matched": 541,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 628
+   },
+   {
+    "protein": "ENSP00000522168",
+    "length": 623,
+    "transcript": "ENST00000852109",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 623,
+    "added_residues_matched": 83,
+    "canonical_residues_matched": 540
+   },
+   {
+    "protein": "ENSP00000522169",
+    "length": 659,
+    "transcript": "ENST00000852110",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 624,
+    "added_residues_matched": 83,
+    "canonical_residues_matched": 576
+   },
+   {
+    "protein": "ENSP00000811235",
+    "length": 624,
+    "transcript": "ENST00001135190",
+    "ensembl_canonical": false,
+    "identical_to_isoform": true,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 624,
+    "added_residues_matched": 83,
+    "canonical_residues_matched": 541
+   },
+   {
+    "protein": "NP_001096045.1",
+    "length": 624,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": true,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 624,
+    "added_residues_matched": 83,
+    "canonical_residues_matched": 541
+   },
+   {
+    "protein": "NP_001138899.1",
+    "length": 591,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 541,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 591
+   },
+   {
+    "protein": "NP_443102.2",
+    "length": 628,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": true,
+    "isoform_residues_matched": 541,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 628
+   }
+  ]
+ },
+ "Q9Y4E5-4": {
+  "gene": "ZNF451",
+  "isoform_length": 559,
+  "canonical_length": 1061,
+  "added_residues": 487,
+  "release": "02-SEP-2026, entry version 206.",
+  "uniprot_xrefs": {
+   "Ensembl": [
+    {
+     "ids": [
+      "ENST00000357489.7",
+      "ENSP00000350083.3",
+      "ENSG00000112200.18"
+     ],
+     "isoform_tag": "Q9Y4E5-2"
+    },
+    {
+     "ids": [
+      "ENST00000370706.9",
+      "ENSP00000359740.4",
+      "ENSG00000112200.18"
+     ],
+     "isoform_tag": "Q9Y4E5-1"
+    },
+    {
+     "ids": [
+      "ENST00000370708.8",
+      "ENSP00000359742.4",
+      "ENSG00000112200.18"
+     ],
+     "isoform_tag": "Q9Y4E5-4"
+    }
+   ],
+   "RefSeq": [
+    {
+     "ids": [
+      "NP_001026794.1",
+      "NM_001031623.3"
+     ],
+     "isoform_tag": "Q9Y4E5-1"
+    },
+    {
+     "ids": [
+      "NP_001244202.1",
+      "NM_001257273.2"
+     ],
+     "isoform_tag": "Q9Y4E5-4"
+    },
+    {
+     "ids": [
+      "NP_056370.2",
+      "NM_015555.3"
+     ],
+     "isoform_tag": "Q9Y4E5-2"
+    }
+   ],
+   "CCDS": [
+    {
+     "ids": [
+      "CCDS43477.1"
+     ],
+     "isoform_tag": "Q9Y4E5-1"
+    },
+    {
+     "ids": [
+      "CCDS4960.1"
+     ],
+     "isoform_tag": "Q9Y4E5-2"
+    },
+    {
+     "ids": [
+      "CCDS59026.1"
+     ],
+     "isoform_tag": "Q9Y4E5-4"
+    }
+   ],
+   "MANE-Select": [
+    {
+     "ids": [
+      "ENST00000370706.9",
+      "ENSP00000359740.4",
+      "NM_001031623.3",
+      "NP_001026794.1"
+     ],
+     "isoform_tag": null
+    }
+   ]
+  },
+  "isoform_xrefs": {
+   "Ensembl": [
+    [
+     "ENST00000370708.8",
+     "ENSP00000359742.4",
+     "ENSG00000112200.18"
+    ]
+   ],
+   "RefSeq": [
+    [
+     "NP_001244202.1",
+     "NM_001257273.2"
+    ]
+   ],
+   "CCDS": [
+    [
+     "CCDS59026.1"
+    ]
+   ],
+   "MANE-Select": []
+  },
+  "mane_select": "canonical",
+  "peptides_mapped": 93,
+  "isoform_specific_peptides": 90,
+  "isoform_specific_peptides_within_added": 82,
+  "isoform_specific_max_samples": 45,
+  "isoform_specific_peptides_also_in_other_genes": 1,
+  "peptide_list": [
+   {
+    "begin": 212,
+    "end": 240,
+    "peptide": "PSENSSVPWDISTSKEENLSTVEEETDYK",
+    "added_overlap": 29,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 357,
+    "end": 369,
+    "peptide": "RGNTTSPLDSTSK",
+    "added_overlap": 13,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "22",
+    "observations": "122",
+    "other_genes": []
+   },
+   {
+    "begin": 306,
+    "end": 327,
+    "peptide": "IATTEVFKDPADCHPSSFMGHR",
+    "added_overlap": 22,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "15",
+    "observations": "242",
+    "other_genes": []
+   },
+   {
+    "begin": 139,
+    "end": 179,
+    "peptide": "SSQNFQTLPSSPLLVPQESLASSEVKENLRIDSSSASQHGR",
+    "added_overlap": 41,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "6",
+    "other_genes": []
+   },
+   {
+    "begin": 401,
+    "end": 418,
+    "peptide": "KLWEDMEDLVHDPEFDRG",
+    "added_overlap": 18,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 491,
+    "end": 505,
+    "peptide": "AVVAEDNNIKENDYK",
+    "added_overlap": 15,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "12",
+    "observations": "87",
+    "other_genes": []
+   },
+   {
+    "begin": 306,
+    "end": 313,
+    "peptide": "IATTEVFK",
+    "added_overlap": 8,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "4",
+    "observations": "9",
+    "other_genes": []
+   },
+   {
+    "begin": 248,
+    "end": 263,
+    "peptide": "GQPSDPSQSSFTGLLK",
+    "added_overlap": 16,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "21",
+    "observations": "68",
+    "other_genes": []
+   },
+   {
+    "begin": 274,
+    "end": 293,
+    "peptide": "VTLQSEAESCEGKPDCVTSK",
+    "added_overlap": 20,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "32",
+    "observations": "131",
+    "other_genes": []
+   },
+   {
+    "begin": 227,
+    "end": 240,
+    "peptide": "EENLSTVEEETDYK",
+    "added_overlap": 14,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "31",
+    "observations": "72",
+    "other_genes": []
+   },
+   {
+    "begin": 401,
+    "end": 417,
+    "peptide": "KLWEDMEDLVHDPEFDR",
+    "added_overlap": 17,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "6",
+    "observations": "19",
+    "other_genes": []
+   },
+   {
+    "begin": 333,
+    "end": 355,
+    "peptide": "KDTSPFQPNPPAEGPIVEALEHS",
+    "added_overlap": 23,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "5",
+    "observations": "6",
+    "other_genes": []
+   },
+   {
+    "begin": 294,
+    "end": 305,
+    "peptide": "KRLVPPLHPLLR",
+    "added_overlap": 12,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "20",
+    "other_genes": []
+   },
+   {
+    "begin": 203,
+    "end": 226,
+    "peptide": "SCFRFHHSRPSENSSVPWDISTSK",
+    "added_overlap": 24,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "8",
+    "other_genes": []
+   },
+   {
+    "begin": 448,
+    "end": 457,
+    "peptide": "VMAMAIDYRR",
+    "added_overlap": 10,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "16",
+    "other_genes": []
+   },
+   {
+    "begin": 515,
+    "end": 528,
+    "peptide": "YFYSHDQKAHYHNR",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "7",
+    "observations": "114",
+    "other_genes": []
+   },
+   {
+    "begin": 131,
+    "end": 138,
+    "peptide": "ISETETLK",
+    "added_overlap": 8,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "4",
+    "observations": "18",
+    "other_genes": [
+     "Q99996"
+    ]
+   },
+   {
+    "begin": 357,
+    "end": 377,
+    "peptide": "RGNTTSPLDSTSKEMEVMGCR",
+    "added_overlap": 21,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "36",
+    "other_genes": []
+   },
+   {
+    "begin": 470,
+    "end": 490,
+    "peptide": "TQEKISHLPFDGTSLFGQDVK",
+    "added_overlap": 21,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "13",
+    "observations": "80",
+    "other_genes": []
+   },
+   {
+    "begin": 509,
+    "end": 522,
+    "peptide": "YYNQHRYFYSHDQK",
+    "added_overlap": 9,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "19",
+    "other_genes": []
+   },
+   {
+    "begin": 422,
+    "end": 439,
+    "peptide": "CIISDGMDAGLWQLCTTR",
+    "added_overlap": 18,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "6",
+    "observations": "25",
+    "other_genes": []
+   },
+   {
+    "begin": 420,
+    "end": 439,
+    "peptide": "ARCIISDGMDAGLWQLCTTR",
+    "added_overlap": 20,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "9",
+    "other_genes": []
+   },
+   {
+    "begin": 207,
+    "end": 226,
+    "peptide": "FHHSRPSENSSVPWDISTSK",
+    "added_overlap": 20,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "11",
+    "observations": "336",
+    "other_genes": []
+   },
+   {
+    "begin": 491,
+    "end": 508,
+    "peptide": "AVVAEDNNIKENDYKDHK",
+    "added_overlap": 18,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "7",
+    "observations": "24",
+    "other_genes": []
+   },
+   {
+    "begin": 474,
+    "end": 505,
+    "peptide": "ISHLPFDGTSLFGQDVKAVVAEDNNIKENDYK",
+    "added_overlap": 32,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "7",
+    "observations": "26",
+    "other_genes": []
+   },
+   {
+    "begin": 334,
+    "end": 357,
+    "peptide": "DTSPFQPNPPAEGPIVEALEHSKR",
+    "added_overlap": 24,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "15",
+    "observations": "137",
+    "other_genes": []
+   },
+   {
+    "begin": 506,
+    "end": 519,
+    "peptide": "DHKYYNQHRYFYSH",
+    "added_overlap": 9,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 388,
+    "end": 400,
+    "peptide": "AASYMAYMTQYQR",
+    "added_overlap": 13,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "13",
+    "observations": "108",
+    "other_genes": []
+   },
+   {
+    "begin": 165,
+    "end": 179,
+    "peptide": "ENLRIDSSSASQHGR",
+    "added_overlap": 15,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "6",
+    "observations": "147",
+    "other_genes": []
+   },
+   {
+    "begin": 334,
+    "end": 356,
+    "peptide": "DTSPFQPNPPAEGPIVEALEHSK",
+    "added_overlap": 23,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "43",
+    "observations": "172",
+    "other_genes": []
+   },
+   {
+    "begin": 131,
+    "end": 164,
+    "peptide": "ISETETLKSSQNFQTLPSSPLLVPQESLASSEVK",
+    "added_overlap": 34,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "8",
+    "observations": "27",
+    "other_genes": []
+   },
+   {
+    "begin": 221,
+    "end": 239,
+    "peptide": "DISTSKEENLSTVEEETDY",
+    "added_overlap": 19,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 515,
+    "end": 522,
+    "peptide": "YFYSHDQK",
+    "added_overlap": 5,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "13",
+    "observations": "148",
+    "other_genes": []
+   },
+   {
+    "begin": 548,
+    "end": 554,
+    "peptide": "KGDSPER",
+    "added_overlap": 7,
+    "sources": [
+     "ProteomicsDB"
+    ],
+    "samples": null,
+    "observations": null,
+    "other_genes": []
+   },
+   {
+    "begin": 106,
+    "end": 130,
+    "peptide": "IVSQTSSVENPLENQKNDQNNSDTK",
+    "added_overlap": 25,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "17",
+    "observations": "108",
+    "other_genes": []
+   },
+   {
+    "begin": 248,
+    "end": 264,
+    "peptide": "GQPSDPSQSSFTGLLKR",
+    "added_overlap": 17,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "10",
+    "observations": "26",
+    "other_genes": []
+   },
+   {
+    "begin": 106,
+    "end": 138,
+    "peptide": "IVSQTSSVENPLENQKNDQNNSDTKISETETLK",
+    "added_overlap": 33,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "3",
+    "other_genes": []
+   },
+   {
+    "begin": 139,
+    "end": 164,
+    "peptide": "SSQNFQTLPSSPLLVPQESLASSEVK",
+    "added_overlap": 26,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "14",
+    "observations": "65",
+    "other_genes": []
+   },
+   {
+    "begin": 458,
+    "end": 468,
+    "peptide": "QAWLRLTSLTK",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "7",
+    "other_genes": []
+   },
+   {
+    "begin": 448,
+    "end": 456,
+    "peptide": "VMAMAIDYR",
+    "added_overlap": 9,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "5",
+    "other_genes": []
+   },
+   {
+    "begin": 306,
+    "end": 333,
+    "peptide": "IATTEVFKDPADCHPSSFMGHRVYPVAK",
+    "added_overlap": 28,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "20",
+    "other_genes": []
+   },
+   {
+    "begin": 358,
+    "end": 369,
+    "peptide": "GNTTSPLDSTSK",
+    "added_overlap": 12,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "10",
+    "observations": "58",
+    "other_genes": []
+   },
+   {
+    "begin": 378,
+    "end": 387,
+    "peptide": "FYHAASIAAR",
+    "added_overlap": 10,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "27",
+    "observations": "117",
+    "other_genes": []
+   },
+   {
+    "begin": 328,
+    "end": 356,
+    "peptide": "VYPVAKDTSPFQPNPPAEGPIVEALEHSK",
+    "added_overlap": 29,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "10",
+    "observations": "90",
+    "other_genes": []
+   },
+   {
+    "begin": 273,
+    "end": 294,
+    "peptide": "RVTLQSEAESCEGKPDCVTSKK",
+    "added_overlap": 22,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "12",
+    "observations": "101",
+    "other_genes": []
+   },
+   {
+    "begin": 106,
+    "end": 121,
+    "peptide": "IVSQTSSVENPLENQK",
+    "added_overlap": 16,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "45",
+    "observations": "268",
+    "other_genes": []
+   },
+   {
+    "begin": 317,
+    "end": 333,
+    "peptide": "DCHPSSFMGHRVYPVAK",
+    "added_overlap": 17,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 207,
+    "end": 240,
+    "peptide": "FHHSRPSENSSVPWDISTSKEENLSTVEEETDYK",
+    "added_overlap": 34,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "4",
+    "observations": "530",
+    "other_genes": []
+   },
+   {
+    "begin": 474,
+    "end": 500,
+    "peptide": "ISHLPFDGTSLFGQDVKAVVAEDNNIK",
+    "added_overlap": 27,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "19",
+    "observations": "520",
+    "other_genes": []
+   },
+   {
+    "begin": 517,
+    "end": 525,
+    "peptide": "YSHDQKAHY",
+    "added_overlap": 8,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "7",
+    "observations": "32",
+    "other_genes": []
+   },
+   {
+    "begin": 264,
+    "end": 272,
+    "peptide": "RMEQRGVIK",
+    "added_overlap": 9,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "3",
+    "other_genes": []
+   },
+   {
+    "begin": 226,
+    "end": 239,
+    "peptide": "KEENLSTVEEETDY",
+    "added_overlap": 14,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 241,
+    "end": 263,
+    "peptide": "SPSADDKGQPSDPSQSSFTGLLK",
+    "added_overlap": 23,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "16",
+    "observations": "203",
+    "other_genes": []
+   },
+   {
+    "begin": 529,
+    "end": 539,
+    "peptide": "GYSKGDWYKPR",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "5",
+    "observations": "39",
+    "other_genes": []
+   },
+   {
+    "begin": 420,
+    "end": 447,
+    "peptide": "ARCIISDGMDAGLWQLCTTRDIMDSVVR",
+    "added_overlap": 28,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "9",
+    "other_genes": []
+   },
+   {
+    "begin": 474,
+    "end": 490,
+    "peptide": "ISHLPFDGTSLFGQDVK",
+    "added_overlap": 17,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "42",
+    "observations": "209",
+    "other_genes": []
+   },
+   {
+    "begin": 195,
+    "end": 202,
+    "peptide": "VIRDLQSR",
+    "added_overlap": 8,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "84",
+    "other_genes": []
+   },
+   {
+    "begin": 334,
+    "end": 369,
+    "peptide": "DTSPFQPNPPAEGPIVEALEHSKRGNTTSPLDSTSK",
+    "added_overlap": 36,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "10",
+    "other_genes": []
+   },
+   {
+    "begin": 388,
+    "end": 401,
+    "peptide": "AASYMAYMTQYQRK",
+    "added_overlap": 14,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "15",
+    "other_genes": []
+   },
+   {
+    "begin": 272,
+    "end": 293,
+    "peptide": "KRVTLQSEAESCEGKPDCVTSK",
+    "added_overlap": 22,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "4",
+    "other_genes": []
+   },
+   {
+    "begin": 139,
+    "end": 168,
+    "peptide": "SSQNFQTLPSSPLLVPQESLASSEVKENLR",
+    "added_overlap": 30,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "7",
+    "observations": "149",
+    "other_genes": []
+   },
+   {
+    "begin": 169,
+    "end": 179,
+    "peptide": "IDSSSASQHGR",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "19",
+    "observations": "152",
+    "other_genes": []
+   },
+   {
+    "begin": 273,
+    "end": 293,
+    "peptide": "RVTLQSEAESCEGKPDCVTSK",
+    "added_overlap": 21,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "34",
+    "observations": "291",
+    "other_genes": []
+   },
+   {
+    "begin": 314,
+    "end": 327,
+    "peptide": "DPADCHPSSFMGHR",
+    "added_overlap": 14,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "20",
+    "other_genes": []
+   },
+   {
+    "begin": 358,
+    "end": 377,
+    "peptide": "GNTTSPLDSTSKEMEVMGCR",
+    "added_overlap": 20,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "6",
+    "observations": "25",
+    "other_genes": []
+   },
+   {
+    "begin": 212,
+    "end": 226,
+    "peptide": "PSENSSVPWDISTSK",
+    "added_overlap": 15,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "8",
+    "observations": "24",
+    "other_genes": []
+   },
+   {
+    "begin": 69,
+    "end": 105,
+    "peptide": "VPSSENHRPEMCSSCNVPLPIGDSSSFSGSCSSSPER",
+    "added_overlap": 37,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "9",
+    "observations": "100",
+    "other_genes": []
+   },
+   {
+    "begin": 402,
+    "end": 417,
+    "peptide": "LWEDMEDLVHDPEFDR",
+    "added_overlap": 16,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "22",
+    "observations": "32",
+    "other_genes": []
+   },
+   {
+    "begin": 378,
+    "end": 401,
+    "peptide": "FYHAASIAARAASYMAYMTQYQRK",
+    "added_overlap": 24,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 274,
+    "end": 294,
+    "peptide": "VTLQSEAESCEGKPDCVTSKK",
+    "added_overlap": 21,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "6",
+    "observations": "20",
+    "other_genes": []
+   },
+   {
+    "begin": 227,
+    "end": 247,
+    "peptide": "EENLSTVEEETDYKSPSADDK",
+    "added_overlap": 21,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "15",
+    "observations": "92",
+    "other_genes": []
+   },
+   {
+    "begin": 401,
+    "end": 419,
+    "peptide": "KLWEDMEDLVHDPEFDRGK",
+    "added_overlap": 19,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "27",
+    "other_genes": []
+   },
+   {
+    "begin": 470,
+    "end": 500,
+    "peptide": "TQEKISHLPFDGTSLFGQDVKAVVAEDNNIK",
+    "added_overlap": 31,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "7",
+    "other_genes": []
+   },
+   {
+    "begin": 506,
+    "end": 514,
+    "peptide": "DHKYYNQHR",
+    "added_overlap": 7,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "5",
+    "observations": "27",
+    "other_genes": []
+   },
+   {
+    "begin": 221,
+    "end": 244,
+    "peptide": "DISTSKEENLSTVEEETDYKSPSA",
+    "added_overlap": 24,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 169,
+    "end": 194,
+    "peptide": "IDSSSASQHGRDAILYLQTQVAEMSR",
+    "added_overlap": 21,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "7",
+    "other_genes": []
+   },
+   {
+    "begin": 370,
+    "end": 377,
+    "peptide": "EMEVMGCR",
+    "added_overlap": 8,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "32",
+    "other_genes": []
+   },
+   {
+    "begin": 122,
+    "end": 130,
+    "peptide": "NDQNNSDTK",
+    "added_overlap": 9,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "5",
+    "observations": "6",
+    "other_genes": []
+   },
+   {
+    "begin": 370,
+    "end": 387,
+    "peptide": "EMEVMGCRFYHAASIAAR",
+    "added_overlap": 18,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "3",
+    "other_genes": []
+   },
+   {
+    "begin": 122,
+    "end": 138,
+    "peptide": "NDQNNSDTKISETETLK",
+    "added_overlap": 17,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "15",
+    "observations": "184",
+    "other_genes": []
+   },
+   {
+    "begin": 240,
+    "end": 262,
+    "peptide": "KSPSADDKGQPSDPSQSSFTGLL",
+    "added_overlap": 23,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 296,
+    "end": 305,
+    "peptide": "LVPPLHPLLR",
+    "added_overlap": 10,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "13",
+    "observations": "91",
+    "other_genes": []
+   },
+   {
+    "begin": 295,
+    "end": 305,
+    "peptide": "RLVPPLHPLLR",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "10",
+    "observations": "100",
+    "other_genes": []
+   },
+   {
+    "begin": 180,
+    "end": 194,
+    "peptide": "DAILYLQTQVAEMSR",
+    "added_overlap": 10,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "11",
+    "observations": "160",
+    "other_genes": []
+   },
+   {
+    "begin": 227,
+    "end": 263,
+    "peptide": "EENLSTVEEETDYKSPSADDKGQPSDPSQSSFTGLLK",
+    "added_overlap": 37,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "6",
+    "observations": "25",
+    "other_genes": []
+   },
+   {
+    "begin": 469,
+    "end": 490,
+    "peptide": "KTQEKISHLPFDGTSLFGQDVK",
+    "added_overlap": 22,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "5",
+    "observations": "23",
+    "other_genes": []
+   },
+   {
+    "begin": 533,
+    "end": 539,
+    "peptide": "GDWYKPR",
+    "added_overlap": 7,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "33",
+    "other_genes": []
+   },
+   {
+    "begin": 440,
+    "end": 447,
+    "peptide": "DIMDSVVR",
+    "added_overlap": 8,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "32",
+    "other_genes": []
+   },
+   {
+    "begin": 491,
+    "end": 500,
+    "peptide": "AVVAEDNNIK",
+    "added_overlap": 10,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "10",
+    "observations": "16",
+    "other_genes": []
+   },
+   {
+    "begin": 547,
+    "end": 554,
+    "peptide": "KKGDSPER",
+    "added_overlap": 8,
+    "sources": [
+     "ProteomicsDB"
+    ],
+    "samples": null,
+    "observations": null,
+    "other_genes": []
+   },
+   {
+    "begin": 402,
+    "end": 419,
+    "peptide": "LWEDMEDLVHDPEFDRGK",
+    "added_overlap": 18,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "16",
+    "observations": "119",
+    "other_genes": []
+   }
+  ],
+  "gene_proteins": [
+   {
+    "protein": "ENSP00000424723",
+    "length": 40,
+    "transcript": "ENST00000515290",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 0,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 40
+   },
+   {
+    "protein": "ENSP00000427558",
+    "length": 158,
+    "transcript": "ENST00000510483",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 34,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 158
+   },
+   {
+    "protein": "ENSP00000350083",
+    "length": 1013,
+    "transcript": "ENST00000357489",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1013
+   },
+   {
+    "protein": "ENSP00000359742",
+    "length": 559,
+    "transcript": "ENST00000370708",
+    "ensembl_canonical": false,
+    "identical_to_isoform": true,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 559,
+    "added_residues_matched": 487,
+    "canonical_residues_matched": 72
+   },
+   {
+    "protein": "ENSP00000359736",
+    "length": 73,
+    "transcript": "ENST00000370702",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 62,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 62
+   },
+   {
+    "protein": "ENSP00000476915",
+    "length": 75,
+    "transcript": "ENST00000370711",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 62,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 62
+   },
+   {
+    "protein": "ENSP00000421786",
+    "length": 151,
+    "transcript": "ENST00000508603",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 151,
+    "added_residues_matched": 117,
+    "canonical_residues_matched": 39
+   },
+   {
+    "protein": "ENSP00000359740",
+    "length": 1061,
+    "transcript": "ENST00000370706",
+    "ensembl_canonical": true,
+    "identical_to_isoform": false,
+    "identical_to_canonical": true,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1061
+   },
+   {
+    "protein": "ENSP00000421645",
+    "length": 1041,
+    "transcript": "ENST00000491832",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1023
+   },
+   {
+    "protein": "ENSP00000359744",
+    "length": 75,
+    "transcript": "ENST00000370710",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 62,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 62
+   },
+   {
+    "protein": "ENSP00000424329",
+    "length": 72,
+    "transcript": "ENST00000502749",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 7,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 7
+   },
+   {
+    "protein": "ENSP00000425047",
+    "length": 53,
+    "transcript": "ENST00000504603",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 35,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 35
+   },
+   {
+    "protein": "ENSP00000526295",
+    "length": 955,
+    "transcript": "ENST00000856236",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 955
+   },
+   {
+    "protein": "ENSP00000526296",
+    "length": 907,
+    "transcript": "ENST00000856237",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 907
+   },
+   {
+    "protein": "ENSP00000597600",
+    "length": 1019,
+    "transcript": "ENST00000927541",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1019
+   },
+   {
+    "protein": "ENSP00000597601",
+    "length": 1060,
+    "transcript": "ENST00000927542",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1060
+   },
+   {
+    "protein": "ENSP00000597602",
+    "length": 1038,
+    "transcript": "ENST00000927543",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1038
+   },
+   {
+    "protein": "ENSP00000657494",
+    "length": 114,
+    "transcript": "ENST00000987677",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 62,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 104
+   },
+   {
+    "protein": "ENSP00000657495",
+    "length": 873,
+    "transcript": "ENST00000987678",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 869
+   },
+   {
+    "protein": "ENSP00000657496",
+    "length": 975,
+    "transcript": "ENST00000987679",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 961
+   },
+   {
+    "protein": "ENSP00000657497",
+    "length": 927,
+    "transcript": "ENST00000987680",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 913
+   },
+   {
+    "protein": "ENSP00000708968",
+    "length": 1030,
+    "transcript": "ENST00001039151",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1023
+   },
+   {
+    "protein": "ENSP00000708969",
+    "length": 65,
+    "transcript": "ENST00001039152",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 34,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 34
+   },
+   {
+    "protein": "ENSP00000708970",
+    "length": 93,
+    "transcript": "ENST00001039153",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 62,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 62
+   },
+   {
+    "protein": "ENSP00000749780",
+    "length": 559,
+    "transcript": "ENST00001079974",
+    "ensembl_canonical": false,
+    "identical_to_isoform": true,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 559,
+    "added_residues_matched": 487,
+    "canonical_residues_matched": 72
+   },
+   {
+    "protein": "ENSP00000749781",
+    "length": 873,
+    "transcript": "ENST00001079975",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 869
+   },
+   {
+    "protein": "ENSP00000780103",
+    "length": 116,
+    "transcript": "ENST00001110298",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 34,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 114
+   },
+   {
+    "protein": "ENSP00000789673",
+    "length": 221,
+    "transcript": "ENST00001119868",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 62,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 192
+   },
+   {
+    "protein": "ENSP00000792543",
+    "length": 1069,
+    "transcript": "ENST00001122738",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1046
+   },
+   {
+    "protein": "ENSP00000800363",
+    "length": 115,
+    "transcript": "ENST00001130558",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 62,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 104
+   },
+   {
+    "protein": "ENSP00000809770",
+    "length": 1061,
+    "transcript": "ENST00001140904",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": true,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1061
+   },
+   {
+    "protein": "NP_001026794.1",
+    "length": 1061,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": true,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1061
+   },
+   {
+    "protein": "NP_001244202.1",
+    "length": 559,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": true,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 559,
+    "added_residues_matched": 487,
+    "canonical_residues_matched": 72
+   },
+   {
+    "protein": "NP_056370.2",
+    "length": 1013,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 67,
+    "added_residues_matched": 5,
+    "canonical_residues_matched": 1013
+   }
+  ]
+ },
+ "Q9H579-2": {
+  "gene": "MROH8",
+  "isoform_length": 876,
+  "canonical_length": 483,
+  "added_residues": 447,
+  "release": "02-SEP-2026, entry version 146.",
+  "uniprot_xrefs": {
+   "Ensembl": [],
+   "RefSeq": [
+    {
+     "ids": [
+      "NP_689716.4",
+      "NM_152503.8"
+     ],
+     "isoform_tag": null
+    },
+    {
+     "ids": [
+      "NP_998796.1",
+      "NM_213631.3"
+     ],
+     "isoform_tag": null
+    },
+    {
+     "ids": [
+      "NP_998797.2",
+      "NM_213632.3"
+     ],
+     "isoform_tag": null
+    }
+   ],
+   "CCDS": [],
+   "MANE-Select": []
+  },
+  "isoform_xrefs": {
+   "Ensembl": [],
+   "RefSeq": [],
+   "CCDS": [],
+   "MANE-Select": []
+  },
+  "mane_select": "none",
+  "peptides_mapped": 38,
+  "isoform_specific_peptides": 22,
+  "isoform_specific_peptides_within_added": 21,
+  "isoform_specific_max_samples": 7,
+  "isoform_specific_peptides_also_in_other_genes": 0,
+  "peptide_list": [
+   {
+    "begin": 630,
+    "end": 640,
+    "peptide": "SLLPYIVDSLR",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "4",
+    "observations": "7",
+    "other_genes": []
+   },
+   {
+    "begin": 820,
+    "end": 830,
+    "peptide": "MGTDWIEDDLR",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 672,
+    "end": 681,
+    "peptide": "TLFSLFGDVR",
+    "added_overlap": 10,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "4",
+    "observations": "32",
+    "other_genes": []
+   },
+   {
+    "begin": 706,
+    "end": 734,
+    "peptide": "SIENQVLDSLVPLLLYSQDENDAVAEESR",
+    "added_overlap": 29,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "2",
+    "observations": "28",
+    "other_genes": []
+   },
+   {
+    "begin": 660,
+    "end": 671,
+    "peptide": "TMDFTTLAAMMR",
+    "added_overlap": 12,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "5",
+    "other_genes": []
+   },
+   {
+    "begin": 735,
+    "end": 745,
+    "peptide": "QVLTICAQFLK",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 596,
+    "end": 608,
+    "peptide": "FKDWLQDGNHLFR",
+    "added_overlap": 13,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "18",
+    "other_genes": []
+   },
+   {
+    "begin": 614,
+    "end": 625,
+    "peptide": "GLYNLVGHQEMR",
+    "added_overlap": 12,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 569,
+    "end": 580,
+    "peptide": "LTSAGSFVELLR",
+    "added_overlap": 12,
+    "sources": [
+     "ProteomicsDB"
+    ],
+    "samples": null,
+    "observations": null,
+    "other_genes": []
+   },
+   {
+    "begin": 506,
+    "end": 517,
+    "peptide": "TCCLQEFNIMEK",
+    "added_overlap": 12,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "4",
+    "observations": "9",
+    "other_genes": []
+   },
+   {
+    "begin": 598,
+    "end": 608,
+    "peptide": "DWLQDGNHLFR",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "2",
+    "other_genes": []
+   },
+   {
+    "begin": 811,
+    "end": 819,
+    "peptide": "YMDHNELRR",
+    "added_overlap": 9,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "4",
+    "other_genes": []
+   },
+   {
+    "begin": 687,
+    "end": 697,
+    "peptide": "FSVTLFGAAIK",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "5",
+    "observations": "16",
+    "other_genes": []
+   },
+   {
+    "begin": 800,
+    "end": 810,
+    "peptide": "SAVLFVGLLSK",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "4",
+    "observations": "25",
+    "other_genes": []
+   },
+   {
+    "begin": 528,
+    "end": 544,
+    "peptide": "DGHLQGLFLLANALLER",
+    "added_overlap": 17,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "5",
+    "observations": "22",
+    "other_genes": []
+   },
+   {
+    "begin": 756,
+    "end": 770,
+    "peptide": "DPWHIKPTEAGTICR",
+    "added_overlap": 15,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "4",
+    "observations": "6",
+    "other_genes": []
+   },
+   {
+    "begin": 552,
+    "end": 562,
+    "peptide": "VMYLLVPLLNR",
+    "added_overlap": 11,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "7",
+    "observations": "20",
+    "other_genes": []
+   },
+   {
+    "begin": 586,
+    "end": 595,
+    "peptide": "RLPSIYSVAR",
+    "added_overlap": 10,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "3",
+    "observations": "10",
+    "other_genes": []
+   },
+   {
+    "begin": 630,
+    "end": 645,
+    "peptide": "SLLPYIVDSLRETDEK",
+    "added_overlap": 16,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "1",
+    "observations": "5",
+    "other_genes": []
+   },
+   {
+    "begin": 746,
+    "end": 755,
+    "peptide": "WKLPQEVYSK",
+    "added_overlap": 10,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "5",
+    "other_genes": []
+   },
+   {
+    "begin": 780,
+    "end": 791,
+    "peptide": "INILEQTLMYSK",
+    "added_overlap": 12,
+    "sources": [
+     "PeptideAtlas",
+     "ProteomicsDB"
+    ],
+    "samples": "4",
+    "observations": "12",
+    "other_genes": []
+   },
+   {
+    "begin": 423,
+    "end": 442,
+    "peptide": "MAYVAVAATDALYEVFLGNR",
+    "added_overlap": 13,
+    "sources": [
+     "PeptideAtlas"
+    ],
+    "samples": "2",
+    "observations": "3",
+    "other_genes": []
+   }
+  ],
+  "gene_proteins": [
+   {
+    "protein": "ENSP00000400468",
+    "length": 956,
+    "transcript": "ENST00000422138",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 875,
+    "added_residues_matched": 446,
+    "canonical_residues_matched": 429
+   },
+   {
+    "protein": "ENSP00000513568",
+    "length": 1042,
+    "transcript": "ENST00000343811",
+    "ensembl_canonical": true,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 875,
+    "added_residues_matched": 446,
+    "canonical_residues_matched": 480
+   },
+   {
+    "protein": "ENSP00000513569",
+    "length": 598,
+    "transcript": "ENST00000400440",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 429,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 483
+   },
+   {
+    "protein": "ENSP00000513570",
+    "length": 563,
+    "transcript": "ENST00000421643",
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 429,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 483
+   },
+   {
+    "protein": "NP_689716.4",
+    "length": 1052,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 875,
+    "added_residues_matched": 446,
+    "canonical_residues_matched": 480
+   },
+   {
+    "protein": "NP_998796.1",
+    "length": 608,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 429,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 483
+   },
+   {
+    "protein": "NP_998797.2",
+    "length": 573,
+    "transcript": null,
+    "ensembl_canonical": false,
+    "identical_to_isoform": false,
+    "identical_to_canonical": false,
+    "isoform_residues_matched": 429,
+    "added_residues_matched": 0,
+    "canonical_residues_matched": 483
+   }
+  ]
+ }
+}
